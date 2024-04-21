@@ -1,0 +1,2 @@
+TeamNaam1	Junior	BT1
+TeamNaam2	Senior	BT2

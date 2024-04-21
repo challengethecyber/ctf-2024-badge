@@ -1,0 +1,39 @@
+/*
+ * Custom CSS
+ */
+
+html { border: 3px solid white; min-height: 100%; cursor: none; }
+
+ :root {
+    --bs-body-bg: var(--bs-black);
+    --bs-blue: #59EEE8;
+    --bs-yellow: #E3E502;
+
+  }
+
+  .btn-primary {
+    --bs-btn-bg: var(--bs-blue);
+    --bs-btn-color: var(--bs-black);
+  }
+  
+  .table-warning {
+    --bs-table-striped-bg: var(--bs-black);
+    --bs-table-bg: var(--bs-yellow);
+    --bs-table-color: var(--bs-black);
+    --bs-table-striped-color: var(--bs-white);
+}
+
+table {
+    font-size: 2rem;
+}
+
+table tr {
+    border-width: 15px;
+    border-color: black;
+    border-left: 0;
+    border-right: 0;
+}
+
+tr>td:nth-of-type(2) {
+   width: 15%;
+}
